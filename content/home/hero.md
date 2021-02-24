@@ -12,7 +12,7 @@ cta_alt:
   url: "docs/"
 cta_note:
   label: >-
-    <a class="js-github-release" href="https://wowchemy.com/updates/" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>
+    <a class="js-github-release" href="https://wowchemy.com/updates/" data-repo="gcushen/hugo-academic">Check this out<!-- V --></a>
 design:
   background:
     gradient_end: '#1976d2'
