@@ -1,3 +1,4 @@
+---
 widget: contact
 
 # This file represents a page section.
@@ -27,3 +28,4 @@ email_form: 2
   
 # design:
 #  columns: '2'
+---
