@@ -85,6 +85,107 @@ edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {
 show_related = {book = true}
 
 ############################
+## Contact details
+##
+## These details power the Contact widget (if enabled).
+## Additionally, for organizations, these details may be used to enrich search engine results.
+############################
+
+# Enter contact details (optional). To hide a field, clear it to "".
+email = "intellsciresearch@gmail.com"
+phone = "+91 9585976565"
+
+# Address
+# For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
+address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+
+# Geographic coordinates
+# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+
+# Directions for visitors to locate you.
+directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+
+# Office hours
+# A list of your office hours. To remove, set to an empty list `[]`.
+office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+
+# Enter an optional link for booking appointments (e.g. calendly.com).
+appointment_url = "https://calendly.com"
+
+# Contact links
+#   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
+contact_links = [
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  ]
+
+############################
+## Advanced
+############################
+
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {enable = true, align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
+
+# Show estimated reading time for posts? (true/false)
+reading_time = true
+
+# Display next/previous section pager? (true/false)
+section_pager = true
+docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
+
+# Enable in-built social sharing buttons? (true/false)
+sharing = true
+
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+
+# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
+abstract_length = 135
+
+# Load JS plugins
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_js  = []
+
+# Avatars.
+# An avatar is an image that appears next to a user's name.
+# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
+
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "circle"
+
+# Configuration of publication pages.
+[services]
+  # Date format (refer to https://wowchemy.com/docs/customization/#date-format )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "January 2006"
+
+  # Citation style ("apa" or "mla")
+  citation_style = "apa"
+
+# Configuration of project pages.
+[programs]
+  # Views for associated content.
+  #   1: List
+  #   2: Compact
+  #   3: Card
+  #   4: Citation (publications only)
+  post_view = 2
+  publication_view = 2
+  talk_view = 2
+
+# Breadcrumb navigation
+[breadcrumb]
+  page_types = {book = true}
+
+############################
 ## Social
 ############################
 
@@ -104,37 +205,6 @@ date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 
-############################
-## Advanced
-############################
-
-# Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {enable = true, align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
-
-# Show estimated reading time for posts? (true/false)
-reading_time = true
-
-# Display next/previous section pager? (true/false)
-section_pager = false
-docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
-
-# Enable in-built social sharing buttons? (true/false)
-sharing = true
-
-# Show a copyright license from creativecommons.org in the site footer?
-# Page specific copyright licenses are also possible by adding this option to a page's front matter.
-copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
-
-# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
-abstract_length = 135
-
-# Load JS plugins
-#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
-
-# Breadcrumb navigation
-[breadcrumb]
-  page_types = {book = true}
 
 ############################
 ## Comments
