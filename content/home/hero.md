@@ -2,8 +2,8 @@
 widget: hero
 headless: true
 weight: 10
-title: WELCOME
-hero_media: icon.png
+title: Welcome
+hero_media: hero-academic.png
 cta:
   label: '**Login**'
   url: https://wowchemy.com/templates/
@@ -12,8 +12,8 @@ cta_alt:
   url: https://discord.gg/z8wNYzb
 cta_note:
   label: >-
-    <a class="js-github-release" href="https://wowchemy.com/updates/" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>
- design:
+    <a class="js-github-release" href="https://wowchemy.com/updates/" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-modules" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy site builder for Hugo</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
+design:
   background:
     gradient_end: '#1976d2'
     gradient_start: '#004ba0'
@@ -22,10 +22,6 @@ advanced:
   css_class: fullscreen
 ---
 
+**All About the Organization**
 
-# Published with the [Wowchemy Website Builder](https://sourcethemes.com/academic/) for Hugo.
-
-All about the Organization
-
-............
-
+**Build anything with widgets** - from landing pages, knowledge bases, and courses to academic resumés, conferences, and tech blogs.
