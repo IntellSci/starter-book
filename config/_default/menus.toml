@@ -5,11 +5,11 @@
 
 [[main]]
   name = "ABOUT"
-  url = "#about"
+  url = "docs/"
   weight = 10
 
 [[main]]
-  name = "PROGRAMS"
+  name = "SERVICES"
   url = "services/"
   weight = 10
   
