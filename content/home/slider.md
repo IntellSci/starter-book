@@ -10,7 +10,7 @@ interval: false
 
 # Minimum slide height.
 # Specify a height to ensure a consistent height for each slide.
-height: 300px
+height: 100px
 
 
 item:
@@ -36,12 +36,12 @@ item:
     content: 'I am left aligned 😄'
     align: left
     overlay_color: '#555'
-    overlay_img: ''
+    overlay_img: bubbles.jpg
     overlay_filter: 0.5
   - title: Right
     content: 'I am right aligned 😄'
     align: right
     overlay_color: '#333'
-    overlay_img: ''
+    overlay_img: bubbles.jpg
     overlay_filter: 0.5
    ---
