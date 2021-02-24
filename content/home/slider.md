@@ -27,11 +27,10 @@ item:
     #   Activate the button by specifying a URL and button label below.
     #   Deactivate by commenting out parameters, prefixing lines with `#`.
     
-    cta:
-      url: docs/
-      label: Login
-      icon_pack: fas
-      icon: download
+    cta_url: docs/
+    cta_label: Login
+    cta_icon_pack: fas
+    cta_icon: download
   
   - title: Left
     content: 'I am left aligned 😄'
