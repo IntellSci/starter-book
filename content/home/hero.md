@@ -6,7 +6,7 @@ title: Welcome
 hero_media: icon.png
 cta:
   label: '**Login**'
-  url: https://wowchemy.com/templates/
+  url: docs/
 cta_alt:
   label: Browse
   url: "docs/"
