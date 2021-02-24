@@ -7,3 +7,15 @@
   name = "SERVICES"
   url = "docs/"
   weight = 10
+
+[[main]]
+  name = "PROGRAMS"
+  url = "/#services"
+  weight = 10
+  
+ [[main]]
+  name = "Test"
+  url = "docs/"
+  weight = 10
+  
+  
