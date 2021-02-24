@@ -3,7 +3,7 @@ widget: hero
 headless: true
 weight: 10
 title: Welcome
-hero_media: hero-academic.png
+hero_media: icon.png
 cta:
   label: '**Login**'
   url: https://wowchemy.com/templates/
