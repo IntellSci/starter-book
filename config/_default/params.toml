@@ -23,7 +23,7 @@ day_night = true
 #   Browse the latest built-in font sets at 
 
 #   Browse user installed font sets in `data/fonts/`
-font = "cyberpunk"
+font = "native"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -187,7 +187,8 @@ plugins_js  = []
 ############################
 [cms]
   branch = "main"
-  local_backend = false
+  local_backend = true
+  publish_mode = "editorial_workflow"
 
 ############################
 ## Icon Pack Extensions
