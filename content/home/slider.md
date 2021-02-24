@@ -1,6 +1,6 @@
 ---
 widget: slider
-headless: true  # This file represents a page section.
+headless: true
 
 # ... Put Your Section Options Here (section position etc.) ...
 
